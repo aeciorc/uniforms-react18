@@ -51,10 +51,6 @@ function Date({
   type = 'datetime-local',
   ...props
 }: DateFieldProps) {
-  console.log('type in date!!!', type);
-  console.log('max in date!!!', max);
-  console.log('props in date!!!', filterDOMProps(props));
-  console.log('inputProps in date!!!', inputProps);
   return (
     <TextField
       disabled={disabled}
